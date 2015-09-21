@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E2200A89C1CE4FC08AC1AE4911173F7C771D0C30",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "758F043F0E546CACF1C1FCD8CBDD5DC4A23E6DB9" : 0,
+    "E2200A89C1CE4FC08AC1AE4911173F7C771D0C30" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DAF8C5D6-E448-4563-B3F3-7EC8C6E52F33",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "758F043F0E546CACF1C1FCD8CBDD5DC4A23E6DB9" : "xMeta-cocos2dx\/xMetaSdk\/",
+    "E2200A89C1CE4FC08AC1AE4911173F7C771D0C30" : "xMeta-cocos2dx\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "XcodeDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "xMetaDemo\/XcodeDemo\/XcodeDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jxayzly11\/xMetaSdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "758F043F0E546CACF1C1FCD8CBDD5DC4A23E6DB9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/MetafunFucker\/cocos2d-js-xmeta.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E2200A89C1CE4FC08AC1AE4911173F7C771D0C30"
+    }
+  ]
+}
