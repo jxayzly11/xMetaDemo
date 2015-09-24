@@ -44,25 +44,40 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     
-    //add logo
-    UIImageView  *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2-100,100,200,200)];
-    imageView.image = [UIImage imageNamed:@"logo.png"];
-    [self.view addSubview:imageView];
+    //第一步，加载Metafun的Logo，渐显1.2秒（这里忽略）
+    self.logo = [[UIImageView alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2-100,130,200,200)];
+    self.logo.image = [UIImage imageNamed:@"logo.png"];
+    [self.view addSubview:self.logo];
     
-    //load game Resource below here
+    //第二步，若游戏需要与加载游戏资源，请在现实logo后加载
     
-    //After 3 second,set load callback
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [MetaAds setLoadCallBack:^(){
-            [MetaAds showBanner];
-            [imageView removeFromSuperview];
-            
-            //game begin
-            
-        }];
+    //第三步，当游戏资源加载完毕后，设置回调。这里我假设游戏加载需要3秒,3秒后我调用 gameLoadOver 来设置回调
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(),^{
+        [self gameLoadOver];
     });
+}
+
+- (void) gameLoadOver{
+    [MetaAds setLoadCallBack:^(){
+        //第四步，在回调内部渐隐logo1.2秒之后删除logo（这里忽略），然后进去你游戏的界面
+        [self.logo removeFromSuperview];
+        [self enterGame];
+    }];
+}
+
+- (void) enterGame{
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(0.0f, 0.0f, 100.0f, 60.0f);
+    button.center = CGPointMake(160.0f, 140.0f);
+    [button setBackgroundColor:[UIColor blueColor]];
+    [button setTitle:@"显示插屏" forState:UIControlStateNormal];
+    [self.view addSubview:button];
+    [button addTarget:self action:@selector(click_ShowGameAd:) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void) click_ShowGameAd:(id)sender{
+    [MetaAds showGameAd];
 }
 
 - (void)didReceiveMemoryWarning {

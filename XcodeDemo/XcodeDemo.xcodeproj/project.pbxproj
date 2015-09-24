@@ -12,9 +12,6 @@
 		9FE13FC51BAC201F006191A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE13FC41BAC201F006191A2 /* main.m */; };
 		9FE13FC81BAC201F006191A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE13FC71BAC201F006191A2 /* AppDelegate.m */; };
 		9FE13FCB1BAC201F006191A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE13FCA1BAC201F006191A2 /* ViewController.m */; };
-		9FE13FCE1BAC201F006191A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE13FCC1BAC201F006191A2 /* Main.storyboard */; };
-		9FE13FD01BAC201F006191A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE13FCF1BAC201F006191A2 /* Assets.xcassets */; };
-		9FE13FD31BAC201F006191A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE13FD11BAC201F006191A2 /* LaunchScreen.storyboard */; };
 		9FE14C291BAC2249006191A2 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE14C281BAC2249006191A2 /* AdSupport.framework */; };
 		9FE14C2B1BAC2253006191A2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE14C2A1BAC2253006191A2 /* AudioToolbox.framework */; };
 		9FE14C2D1BAC225C006191A2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE14C2C1BAC225C006191A2 /* AVFoundation.framework */; };
@@ -69,9 +66,6 @@
 		9FE13FC71BAC201F006191A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9FE13FC91BAC201F006191A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9FE13FCA1BAC201F006191A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9FE13FCD1BAC201F006191A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9FE13FCF1BAC201F006191A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9FE13FD21BAC201F006191A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FE13FD41BAC201F006191A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FE14C281BAC2249006191A2 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		9FE14C2A1BAC2253006191A2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -192,9 +186,6 @@
 				9FE13FC71BAC201F006191A2 /* AppDelegate.m */,
 				9FE13FC91BAC201F006191A2 /* ViewController.h */,
 				9FE13FCA1BAC201F006191A2 /* ViewController.m */,
-				9FE13FCC1BAC201F006191A2 /* Main.storyboard */,
-				9FE13FCF1BAC201F006191A2 /* Assets.xcassets */,
-				9FE13FD11BAC201F006191A2 /* LaunchScreen.storyboard */,
 				9FE13FD41BAC201F006191A2 /* Info.plist */,
 				9FE13FC31BAC201F006191A2 /* Supporting Files */,
 				9FE14C5B1BAC3807006191A2 /* MetaConfig.h */,
@@ -404,12 +395,9 @@
 				9FE14C8D1BAE5F5E006191A2 /* __vungle.db in Resources */,
 				9FE14C901BAE5F5E006191A2 /* vg_mute_off.png in Resources */,
 				9FE14C8F1BAE5F5E006191A2 /* vg_cta.png in Resources */,
-				9FE13FD31BAC201F006191A2 /* LaunchScreen.storyboard in Resources */,
-				9FE13FD01BAC201F006191A2 /* Assets.xcassets in Resources */,
 				9FE14C821BAE5F5E006191A2 /* MetaBundle.bundle in Resources */,
 				9F8DD2901BAFAE1B006ABFE2 /* logo.png in Resources */,
 				9FE14C911BAE5F5E006191A2 /* vg_mute_on.png in Resources */,
-				9FE13FCE1BAC201F006191A2 /* Main.storyboard in Resources */,
 				9FE14C921BAE5F5E006191A2 /* vg_privacy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,25 +416,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		9FE13FCC1BAC201F006191A2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9FE13FCD1BAC201F006191A2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9FE13FD11BAC201F006191A2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9FE13FD21BAC201F006191A2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9FE13FD51BAC201F006191A2 /* Debug */ = {
@@ -535,7 +504,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -564,7 +532,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (

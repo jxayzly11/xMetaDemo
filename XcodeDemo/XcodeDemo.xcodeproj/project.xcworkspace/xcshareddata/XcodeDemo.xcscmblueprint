@@ -1,21 +1,28 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E2200A89C1CE4FC08AC1AE4911173F7C771D0C30",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "69CB2D7C195CB9A6DB0A0E5FA5F7860D0C907650",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E2200A89C1CE4FC08AC1AE4911173F7C771D0C30" : 0,
     "758F043F0E546CACF1C1FCD8CBDD5DC4A23E6DB9" : 0,
-    "E2200A89C1CE4FC08AC1AE4911173F7C771D0C30" : 0
+    "69CB2D7C195CB9A6DB0A0E5FA5F7860D0C907650" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DAF8C5D6-E448-4563-B3F3-7EC8C6E52F33",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "758F043F0E546CACF1C1FCD8CBDD5DC4A23E6DB9" : "xMeta-cocos2dx\/xMetaSdk\/",
-    "E2200A89C1CE4FC08AC1AE4911173F7C771D0C30" : "xMeta-cocos2dx\/"
+    "E2200A89C1CE4FC08AC1AE4911173F7C771D0C30" : "",
+    "758F043F0E546CACF1C1FCD8CBDD5DC4A23E6DB9" : "xMetaSdk\/",
+    "69CB2D7C195CB9A6DB0A0E5FA5F7860D0C907650" : "xMetaDemo\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "XcodeDemo",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "xMetaDemo\/XcodeDemo\/XcodeDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "XcodeDemo\/XcodeDemo.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jxayzly11\/xMetaDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "69CB2D7C195CB9A6DB0A0E5FA5F7860D0C907650"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jxayzly11\/xMetaSdk.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
